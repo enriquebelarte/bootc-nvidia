@@ -1,4 +1,4 @@
-ARG DRIVER_TOOLKIT_IMAGE="quay.io/ai-lab/nvidia-builder:latest"
+ARG DRIVER_TOOLKIT_IMAGE="quay.io/ebelarte/rhel-bootc:nvidia-builder"
 ARG BASEIMAGE="quay.io/centos-bootc/centos-bootc:stream9"
 
 FROM ${DRIVER_TOOLKIT_IMAGE} as builder
